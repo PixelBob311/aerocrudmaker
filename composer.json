@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "pixelbob\\crudgen\\src\\CrudgenServiceProvider"
+                "Pixelbob\\Crudgen\\CrudgenServiceProvider"
             ]
         }
     }
