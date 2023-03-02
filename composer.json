@@ -1,0 +1,20 @@
+{
+    "name": "pixelbob/crudgen",
+    "description": "a little lib",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pixelbob\\Crudgen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pixelbob"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "orchestra/testbench": "7.x-dev"
+    }
+}

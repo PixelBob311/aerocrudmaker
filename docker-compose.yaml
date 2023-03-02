@@ -1,0 +1,12 @@
+version: '3'
+services:
+  generator:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./:/var/www/crudgen
+    working_dir: /var/www
+    container_name: generator
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
