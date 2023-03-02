@@ -16,5 +16,12 @@
     "minimum-stability": "dev",
     "require-dev": {
         "orchestra/testbench": "7.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "pixelbob\\crudgen\\src\\CrudgenServiceProvider"
+            ]
+        }
     }
 }
