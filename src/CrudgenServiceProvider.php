@@ -1,6 +1,9 @@
 <?php
 
+namespace Pixelbob;
+
 use Illuminate\Support\ServiceProvider;
+use Pixelbob\Console\Commands\Crudgen\TestCommand;
 
 class CrudgenServiceProvider extends ServiceProvider {
 

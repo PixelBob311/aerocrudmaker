@@ -1,5 +1,6 @@
 <?php
 
+namespace Pixelbob\Console\Commands\Crudgen;
 class TestCommand extends \Illuminate\Console\Command {
 	protected $signature = 'crud:test';
 
