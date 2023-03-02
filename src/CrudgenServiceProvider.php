@@ -1,13 +1,13 @@
 <?php
 
 use Illuminate\Support\ServiceProvider as ServiceProviderAlias;
-use \Commands\CrudgenCommand;
+use \Console\GenerationCommand;
 
 class CrudgenServiceProvider extends ServiceProviderAlias {
 
 	public function register() {
 		$this->commands([
-			CrudgenCommand::class,
+			GenerationCommand::class,
 		]);
 	}
 
