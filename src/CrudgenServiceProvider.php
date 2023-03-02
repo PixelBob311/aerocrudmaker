@@ -1,19 +1,11 @@
 <?php
 
-use Illuminate\Support\ServiceProvider as ServiceProviderAlias;
-use \Console\GenerationCommand;
+use Illuminate\Support\ServiceProvider;
 
-class CrudgenServiceProvider extends ServiceProviderAlias {
+class CrudgenServiceProvider extends ServiceProvider {
 
 	public function register() {
 		$this->commands([
-			GenerationCommand::class,
-		]);
-	}
-
-	public function boot() {
-		$this->publishes([
-			__DIR__ . '/../config/crudgen.php' => config_path('crudgen-config.php'),
 		]);
 	}
 }
